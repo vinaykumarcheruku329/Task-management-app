@@ -1,0 +1,121 @@
+body {
+
+    margin: 0;
+
+    font-family: Arial;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+
+    url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200');
+
+    background-size: cover;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+}
+
+.container {
+
+    width: 400px;
+
+    background: rgba(255,255,255,0.1);
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 0 20px cyan;
+}
+
+h1 {
+
+    text-align: center;
+
+    color: cyan;
+}
+
+.input-section {
+
+    display: flex;
+
+    gap: 10px;
+}
+
+input {
+
+    flex: 1;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 10px;
+}
+
+button {
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: cyan;
+
+    cursor: pointer;
+
+    font-weight: bold;
+}
+
+ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin-top: 20px;
+}
+
+li {
+
+    background: rgba(255,255,255,0.1);
+
+    padding: 12px;
+
+    margin-top: 10px;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.completed {
+
+    text-decoration: line-through;
+
+    color: lime;
+}
+
+.delete-btn {
+
+    background: red;
+
+    color: white;
+
+    padding: 8px;
+}
